@@ -7,13 +7,15 @@
   top: 136px;
 }
 
-div.nav-header {
+pre.nav-header {
   position: fixed;
   z-index: 3;
   width: 149px;
   left: 173px;
   top: 137px;
   font-size: 15px;
+  font-weight: 600;
+  white-space: pre-wrap;
 }
 
 .nav-links {
@@ -29,6 +31,7 @@ div.nav-header {
 .nav-links li {
   padding-bottom: 12px;
   font-size: 15px;
+  font-weight: 600;
 }
 .nav-links > li > a {
   color: #959595;

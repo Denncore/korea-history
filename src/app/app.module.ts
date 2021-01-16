@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { KoreaPrehistoryComponent } from './korea-prehistory/korea-prehistory.component';
 import { KoreaDivisionComponent } from './korea-division/korea-division.component';
 import { PageNavigationComponent } from './page-navigation/page-navigation.component';
+import { KoreaConflictComponent } from './korea-conflict/korea-conflict.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     KoreaPrehistoryComponent,
     KoreaDivisionComponent,
-    PageNavigationComponent
+    PageNavigationComponent,
+    KoreaConflictComponent
   ],
   imports: [
     BrowserModule,

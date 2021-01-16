@@ -1,8 +1,8 @@
 <div class="navigation">
   <img class="nav-logo" src="assets/svg/conflict.svg" alt="conflict-flag"/>
-  <div class="text nav-header">korea
-    konflikt
-  </div>
+  <pre class="text nav-header">korea
+konflikt
+  </pre>
   <ul class="nav-links">
     <li *ngFor="let navLink of navLinks" [ngClass]="{'active': navLink.active}" class="text">
       <a [routerLink]="'/' + navLink.route" [queryParams]="navLink.slide ? {slide: navLink.slide} : {}">{{navLink.name}}</a>
