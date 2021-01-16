@@ -7,15 +7,18 @@
   top: 136px;
 }
 
-pre.nav-header {
-  position: fixed;
-  z-index: 3;
-  width: 149px;
-  left: 173px;
-  top: 137px;
-  font-size: 15px;
-  font-weight: 600;
-  white-space: pre-wrap;
+a {
+  color: black;
+  pre.nav-header {
+    position: fixed;
+    z-index: 3;
+    width: 149px;
+    left: 173px;
+    top: 140px;
+    font-size: 15px;
+    font-weight: 600;
+    white-space: pre-wrap;
+  }
 }
 
 .nav-links {

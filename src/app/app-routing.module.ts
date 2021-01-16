@@ -5,6 +5,7 @@ import { KoreaDivisionComponent } from 'src/app/korea-division/korea-division.co
 import { KoreaConflictComponent } from 'src/app/korea-conflict/korea-conflict.component';
 import { KoreaRecentComponent } from 'src/app/korea-recent/korea-recent.component';
 import { KoreaLiveInNorthComponent } from 'src/app/korea-live-in-north/korea-live-in-north.component';
+import { KoreaLiveInSouthComponent } from 'src/app/korea-live-in-south/korea-live-in-south.component';
 
 const routes: Routes = [
   {
@@ -29,7 +30,7 @@ const routes: Routes = [
   },
   {
     path: 'south-korea',
-    component: KoreaRecentComponent,
+    component: KoreaLiveInSouthComponent,
   },
   { path: '**', redirectTo: '/prehistory'}];
 
