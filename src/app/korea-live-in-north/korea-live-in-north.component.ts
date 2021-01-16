@@ -1,15 +1,15 @@
 import { Component, ElementRef, HostListener, OnDestroy, OnInit, Renderer2 } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
 import { KoreaPageComponent } from 'src/app/korea-page.component';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-korea-recent',
-  templateUrl: './korea-recent.component.html',
-  styleUrls: ['./korea-recent.component.scss']
+  selector: 'app-korea-live-in-north',
+  templateUrl: './korea-live-in-north.component.html',
+  styleUrls: ['./korea-live-in-north.component.scss']
 })
-export class KoreaRecentComponent extends KoreaPageComponent implements OnInit, OnDestroy {
+export class KoreaLiveInNorthComponent extends KoreaPageComponent implements OnInit, OnDestroy {
   constructor(elementRef: ElementRef, renderer: Renderer2, router: Router, activatedRoute: ActivatedRoute) {
-    super(elementRef, renderer, router, activatedRoute, {route: 'conflict', slide: 20}, {route: 'north-korea'});
+    super(elementRef, renderer, router, activatedRoute, {route: 'recent', slide: 6}, {route: 'south-korea'});
   }
 
   ngOnInit(): void {
@@ -24,5 +24,4 @@ export class KoreaRecentComponent extends KoreaPageComponent implements OnInit, 
   onScrollEvent(): void {
     super.emitNextScrollValue();
   }
-
 }

@@ -13,7 +13,7 @@ import { KoreaPageComponent } from 'src/app/korea-page.component';
 export class KoreaConflictComponent extends KoreaPageComponent implements OnInit, OnDestroy {
 
   constructor(elementRef: ElementRef, renderer: Renderer2, router: Router, activatedRoute: ActivatedRoute) {
-    super(elementRef, renderer, router, activatedRoute, {route: 'division'}, {route: 'recent'});
+    super(elementRef, renderer, router, activatedRoute, {route: 'division', slide: 6}, {route: 'recent'});
   }
 
   ngOnInit(): void {
