@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { KoreaPrehistoryComponent } from 'src/app/korea-prehistory/korea-prehistory.component';
 import { KoreaDivisionComponent } from 'src/app/korea-division/korea-division.component';
 import { KoreaConflictComponent } from 'src/app/korea-conflict/korea-conflict.component';
+import { KoreaRecentComponent } from 'src/app/korea-recent/korea-recent.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'conflict',
     component: KoreaConflictComponent,
+  },
+  {
+    path: 'recent',
+    component: KoreaRecentComponent,
   },
   { path: '**', redirectTo: '/prehistory'}];
 

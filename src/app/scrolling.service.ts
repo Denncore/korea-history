@@ -33,12 +33,8 @@ export class ScrollingService {
 
   public init(currentSlide: number): void {
     this.slides = this.getSlidesFromElements();
-    this.currentSlide = currentSlide <= this.slides.length ? currentSlide : this.slides.length;
-    const urlParams = new URLSearchParams(window.location.search.replace('?', ''));
-    const myParam = urlParams.get('back');
-    if (myParam) {
-      this.currentSlide = this.slides.length;
-    }
+    this.currentSlide = currentSlide <= this.slides.length ? currentSlide : this.slides.length - 1;
+
     this.toggleAnimationClasses();
     this.subscribeToScroll();
   }
@@ -65,7 +61,7 @@ export class ScrollingService {
         slideObject.elements.push(animationElement);
       });
     });
-    this.lastSlide = slides.length;
+    this.lastSlide = slides.length - 1;
     return slides;
   }
 

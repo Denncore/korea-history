@@ -1,0 +1,128 @@
+pre.recent-text-2 {
+  top: 303px
+}
+
+pre.recent-text-3 {
+  top: 578px;
+}
+
+pre.recent-text-4 {
+  top: 684px;
+}
+
+.separation-north-korea {
+  position: fixed;
+  z-index: 11;
+  width: 420px;
+  height: 467px;
+  left: 1076px;
+  top: 53px;
+}
+
+.separation-south-korea {
+  position: fixed;
+  z-index: 11;
+  width: 403px;
+  height: 410px;
+  left: 1228px;
+  top: 473px;
+}
+.korea {
+  position: fixed;
+  z-index: 11;
+  width: 503px;
+  height: 775px;
+  left: 1128px;
+  top: 108px;
+}
+
+.peace {
+  position: fixed;
+  z-index: 11;
+  width: 299px;
+  height: 175px;
+  left: 1230px;
+  top: 408px;
+}
+
+.confetti-1 {
+  position: fixed;
+  z-index: 12;
+  width: 171px;
+  height: 151px;
+  left: 1105px;
+  top: 212px
+}
+.confetti-1-rotate {
+  transform: rotate(322deg);
+}
+
+.confetti-2 {
+  position: fixed;
+  z-index: 12;
+  width: 171px;
+  height: 151px;
+  left: 1311px;
+  top: 268px;
+}
+
+.confetti-2-rotate {
+  transform: rotate(17deg);
+}
+
+.confetti-3 {
+  position: fixed;
+  z-index: 12;
+  width: 171px;
+  height: 151px;
+  left: 1179px;
+  top: 432px;
+}
+
+.confetti-3-rotate {
+  transform: rotate(118deg);
+}
+
+.explosion {
+  position: fixed;
+  z-index: 12;
+  width: 197px;
+  height: 133px;
+  left: 1281px;
+  top: 397px;
+}
+
+.live-in-north-korea {
+  cursor: pointer;
+  position: fixed;
+  z-index: 12;
+  width: 500px;
+  height: 556px;
+  left: 975px;
+  top: 46px;
+  transition: all 0.1s ease-in;
+}
+.live-in-north-korea:hover {
+  width: 550px;
+  height: 606px;
+  left: 950px;
+  top: 0;
+}
+
+.live-in-south-korea {
+  cursor: pointer;
+  position: fixed;
+  z-index: 12;
+  width: 480px;
+  height: 488px;
+  left: 1308px;
+  top: 488px;
+  transition: all 0.1s ease-in;
+}
+
+.live-in-south-korea:hover {
+  width: 530px;
+  height: 538px;
+  left: 1348px;
+  top: 534px;
+}

@@ -1,40 +1,28 @@
 import { Component, ElementRef, HostListener, OnDestroy, OnInit, Renderer2 } from '@angular/core';
-import { ScrollingService } from 'src/app/scrolling.service';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Subject } from 'rxjs';
-import { take } from 'rxjs/operators';
+import { KoreaPageComponent } from 'src/app/korea-page.component';
 
 @Component({
   selector: 'app-korea-division',
   templateUrl: './korea-division.component.html',
   styleUrls: ['./korea-division.component.scss']
 })
-export class KoreaDivisionComponent implements OnInit, OnDestroy {
-  private scrollingService: ScrollingService;
-  private scrollSubject: Subject<number> = new Subject<number>();
+export class KoreaDivisionComponent extends KoreaPageComponent implements OnInit, OnDestroy {
 
-  constructor(private elementRef: ElementRef, private renderer: Renderer2, private router: Router, private activatedRoute: ActivatedRoute) {
+  constructor(elementRef: ElementRef, renderer: Renderer2, router: Router, activatedRoute: ActivatedRoute) {
+    super(elementRef, renderer, router, activatedRoute, {route: 'prehistory', slide: 5}, {route: 'conflict'});
   }
 
   ngOnInit(): void {
-    this.activatedRoute.queryParamMap.pipe(take(1)).subscribe(queryParamMap => {
-      const slide: number = queryParamMap.get('slide') ? parseInt(queryParamMap.get('slide'), 0) : 1;
-      this.scrollingService = new ScrollingService(this.elementRef, this.renderer, this.router, this.scrollSubject,
-        {route: 'prehistory', slide: 5}, {route: 'conflict'});
-      this.scrollingService.init(slide);
-    });
+    super.ngOnInit();
   }
 
   ngOnDestroy(): void {
-    this.scrollingService.unsubscribe();
+    super.ngOnDestroy();
   }
 
   @HostListener('window:scroll', ['$event'])
   onScrollEvent(): void {
-    const verticalOffset = window.pageYOffset
-      || document.documentElement.scrollTop
-      || document.body.scrollTop || 0;
-    this.scrollSubject.next(verticalOffset);
+    super.emitNextScrollValue();
   }
-
 }

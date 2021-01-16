@@ -37,7 +37,7 @@ html {
 
 pre {
   margin: 0;
-  &:first-of-type {
+  &.first{
     margin-top: 6px;
   }
   &.text {

@@ -7,6 +7,7 @@ import { KoreaPrehistoryComponent } from './korea-prehistory/korea-prehistory.co
 import { KoreaDivisionComponent } from './korea-division/korea-division.component';
 import { PageNavigationComponent } from './page-navigation/page-navigation.component';
 import { KoreaConflictComponent } from './korea-conflict/korea-conflict.component';
+import { KoreaRecentComponent } from './korea-recent/korea-recent.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { KoreaConflictComponent } from './korea-conflict/korea-conflict.componen
     KoreaPrehistoryComponent,
     KoreaDivisionComponent,
     PageNavigationComponent,
-    KoreaConflictComponent
+    KoreaConflictComponent,
+    KoreaRecentComponent
   ],
   imports: [
     BrowserModule,
