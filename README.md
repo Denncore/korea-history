@@ -1,5 +1,8 @@
 # KoreaHistory
 
+Simple animated Timeline and summarizes the korean history. It is currently deployed [here](https://korea-history-db.web.app/) on firebase.   
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
 ## Development server
