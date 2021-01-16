@@ -1,1 +1,211 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+  width: 90%;
+  height: 100%;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+html {
+  background: url("../svg/korea.hintergrund.papier.svg") center center no-repeat fixed;
+  background-size: cover;
+  font-family: hero-new, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 26px;
+}
+.trigger-boxes {
+  position: absolute;
+}
+.trigger-box {
+  width: 10px;
+  height: 1100px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
+
+.trigger-box:first-of-type {
+  height: 500px;
+}
+
+#trigger-point {
+  /*border: 1px solid red;*/
+  height: 500px;
+}
+.content {
+  width: 1996px;
+  position: relative;
+}
+
+.land-first-page {
+  position: fixed;
+  z-index: 3;
+  width: 507px;
+  left: 844px;
+  top: 110px;
+}
+
+.land-after-first-page {
+  position: fixed;
+  z-index: 3;
+  width: 507px;
+  left: 1125px;
+  top: 110px;
+}
+
+.nav-logo {
+  position: fixed;
+  z-index: 3;
+  width: 77px;
+  left: 86px;
+  top: 136px;
+}
+
+div.nav-header {
+  position: fixed;
+  z-index: 3;
+  width: 149px;
+  left: 173px;
+  top: 137px;
+  font-size: 15px;
+}
+
+.nav-links {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  position: fixed;
+  z-index: 3;
+  width: 229px;
+  left: 173px;
+  top: 211px;
+}
+.nav-links li {
+  padding-bottom: 12px;
+  font-size: 15px;
+}
+.nav-links > li > a {
+  color: #959595;
+}
+
+.nav-links > li.active > a {
+  color: black;
+}
+
+.nav-links > li > a {
+  text-decoration: none;
+}
+
+.page {
+  position: relative;
+  width: 100%;
+  height: 10000000px;
+  float: left;
+}
+
+.text-block {
+  position: fixed;
+  z-index: 6;
+  width: 350px;
+  left: 428px;
+  top: 210px;
+}
+
+.text {
+  font-size: 18px;
+  white-space: pre-line;
+}
+
+.animation-element {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.animation-fade {
+  transition: 2s linear all;
+  animation-name: fadeOut;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0,40px,0)
+  }
+
+  to {
+    transform: translate3d(0,0,0);
+    opacity: 1
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    transform: translate3d(0,-40px,0)
+  }
+
+  to {
+    transform: translate3d(0,0,0);
+    opacity: 1
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    transform: translate3d(40px,0,0)
+  }
+
+  to {
+    transform: translate3d(0,0,0);
+    opacity: 1
+  }
+}
+
+@keyframes fadeInRight{
+  from {
+    transform: translate3d(-40px,0,0)
+  }
+
+  to {
+    transform: translate3d(0,0,0);
+    opacity: 1
+  }
+}
+
+@keyframes fadeIn{
+  from {
+    transform: translate3d(0,0,0)
+  }
+
+  to {
+    transform: translate3d(0,0,0);
+    opacity: 1
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-up {
+  animation-name: fadeInUp;
+}
+
+.fade-down {
+  animation-name: fadeInDown;
+}
+
+.fade-left {
+  animation-name: fadeInLeft;
+}
+
+.fade-right {
+  animation-name: fadeInRight;
+}
+.fade {
+  animation-name: fadeIn;
+}
+

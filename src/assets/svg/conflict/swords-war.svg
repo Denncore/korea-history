@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="273.119" height="261.36" viewBox="0 0 273.119 261.36">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#999"/>
+      <stop offset="1" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ccc"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#666"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="1.029" y1="0.5" x2="2.029" y2="0.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="1.022" y1="0.5" x2="2.022" y2="0.5" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-6" x1="3.987" y1="0.5" x2="4.986" y2="0.5" xlink:href="#linear-gradient-3"/>
+  </defs>
+  <g id="Ebene_2" data-name="Ebene 2" transform="translate(0.001 -0.039)">
+    <g id="Ebene_1" data-name="Ebene 1" transform="translate(-0.001 0.039)">
+      <path id="Pfad_334" data-name="Pfad 334" d="M212.267,173.622a3.289,3.289,0,1,0,4.656-4.646L61.159,13.212l-1.549-.779L17.244,1.07a5.3,5.3,0,0,0-3.324.76L199.444,186.5Z" transform="translate(-0.189 -0.053)" fill="url(#linear-gradient)"/>
+      <path id="Pfad_335" data-name="Pfad 335" d="M13.908,1.84h0a4.113,4.113,0,0,0-.769,3.354l11.62,42.416a2.249,2.249,0,0,0,.779,1.549L45.385,69.074,181.272,204.646a2.821,2.821,0,0,0,2.328,1.036,3.166,3.166,0,0,0,2.318-1.036,3.285,3.285,0,0,0,0-4.656l13.514-13.474Z" transform="translate(-0.177 -0.064)" fill="url(#linear-gradient-2)"/>
+      <path id="Pfad_336" data-name="Pfad 336" d="M254.509,263.55a9.4,9.4,0,0,1-6.717-2.841l-38.233-37.977-7.743,7.743a15.684,15.684,0,0,1-18.6,2.851l-9.045-4.932a7.734,7.734,0,0,1-3.867-5.425,7.615,7.615,0,0,1,2.062-6.2h0l56.314-56.314a7.635,7.635,0,0,1,6.2-2.062,7.082,7.082,0,0,1,5.425,3.877l4.932,9.035a15.664,15.664,0,0,1-2.841,18.6l-7.743,7.743L272.59,235.6a9.361,9.361,0,0,1,0,13.435l-11.363,11.363A9.075,9.075,0,0,1,254.509,263.55Z" transform="translate(-2.313 -2.191)" fill="url(#linear-gradient-3)"/>
+      <path id="Pfad_337" data-name="Pfad 337" d="M61.793,172.622a3.285,3.285,0,1,1-4.646-4.646L212.911,12.212l1.559-.779L256.836.07a5.317,5.317,0,0,1,3.354.76L74.744,185.5Z" transform="translate(-0.763 -0.039)" fill="url(#linear-gradient-4)"/>
+      <path id="Pfad_338" data-name="Pfad 338" d="M260.444.84h0a4.094,4.094,0,0,1,.779,3.354L249.594,46.58a2.239,2.239,0,0,1-.769,1.549l-19.9,19.945L93.05,203.646a2.841,2.841,0,0,1-2.328,1.036,3.186,3.186,0,0,1-2.328-1.036,3.285,3.285,0,0,1,0-4.656L74.92,185.516Z" transform="translate(-1.018 -0.05)" fill="url(#linear-gradient-5)"/>
+      <path id="Pfad_339" data-name="Pfad 339" d="M14.2,259.394,2.841,248.03a9.361,9.361,0,0,1,0-13.435l37.977-37.977-7.753-7.743a15.694,15.694,0,0,1-2.841-18.6l4.932-9.036a7.053,7.053,0,0,1,5.425-3.877,7.625,7.625,0,0,1,6.195,2.062l56.314,56.314h0a7.625,7.625,0,0,1,2.071,6.2,7.714,7.714,0,0,1-3.877,5.425L92.239,232.3a15.664,15.664,0,0,1-18.594-2.851L65.892,221.7,27.619,259.66a9.39,9.39,0,0,1-6.7,2.89A9.1,9.1,0,0,1,14.2,259.394Z" transform="translate(0.001 -2.177)" fill="url(#linear-gradient-6)"/>
+    </g>
+  </g>
+</svg>
