@@ -1,0 +1,43 @@
+
+.nav-logo {
+  position: fixed;
+  z-index: 3;
+  width: 77px;
+  left: 86px;
+  top: 136px;
+}
+
+div.nav-header {
+  position: fixed;
+  z-index: 3;
+  width: 149px;
+  left: 173px;
+  top: 137px;
+  font-size: 15px;
+}
+
+.nav-links {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  position: fixed;
+  z-index: 3;
+  width: 229px;
+  left: 173px;
+  top: 211px;
+}
+.nav-links li {
+  padding-bottom: 12px;
+  font-size: 15px;
+}
+.nav-links > li > a {
+  color: #959595;
+}
+
+.nav-links > li.active > a {
+  color: black;
+}
+
+.nav-links > li > a {
+  text-decoration: none;
+}

@@ -1,0 +1,74 @@
+pre.separation-text-2 {
+  top: 275px;
+}
+pre.separation-text-3 {
+  top: 399px;
+}
+pre.separation-text-4 {
+  top: 484px;
+}
+pre.separation-text-5 {
+  top: 550px;
+}
+
+.separation {
+  position: fixed;
+  z-index: 10;
+  width: 509px;
+  height: 784px;
+  left: 1123px;
+  top: 106px;
+}
+
+.sowjet-flag {
+  position: fixed;
+  z-index: 11;
+  width: 180px;
+  height: 126px;
+  left: 1061px;
+  top: 226px;
+}
+
+.usa-flag {
+  position: fixed;
+  z-index: 11;
+  width: 180px;
+  height: 118px;
+  left: 1354px;
+  top: 671px;
+}
+
+.north-korea-flag {
+  position: fixed;
+  z-index: 20;
+  width: 226px;
+  height: 158px;
+  left: 1128px;
+  top: 257px;
+}
+
+.south-korea-flag {
+  position: fixed;
+  z-index: 20;
+  width: 218px;
+  height: 152px;
+  left: 1394px;
+  top: 612px;
+}
+
+.border {
+  position: fixed;
+  z-index: 21;
+  width: 742px;
+  left: 1088px;
+  top: 515px;
+}
+
+.border-text {
+  position: fixed;
+  z-index: 21;
+  width: 187px;
+  height: 33px;
+  left: 1644px;
+  top: 490px;
+}

@@ -1,0 +1,89 @@
+.waves {
+  position: fixed;
+  z-index: 1;
+  width: 956px;
+  height: 334px;
+  left: 482px;
+  top: 633px;
+}
+
+.sun {
+  position: fixed;
+  z-index: 2;
+  width: 287px;
+  left: 687px;
+  top: 165px;
+}
+
+.clouds {
+  position: fixed;
+  z-index: 4;
+  width: 891px;
+  left: 496px;
+  top: 293px;
+}
+
+.title {
+  position: fixed;
+  z-index: 5;
+  width: 220px;
+  left: 517px;
+  top: 450px;
+}
+.title-2 {
+  position: fixed;
+  z-index: 6;
+  width: 149px;
+  left: 126px;
+  top: 130px;
+}
+
+.swords {
+  position: fixed;
+  z-index: 7;
+  width: 266px;
+  left: 1294px;
+  top: 337px;
+}
+.stars {
+  position: fixed;
+  z-index: 8;
+  width: 135px;
+  left: 1148px;
+  top: 233px;
+}
+pre.history-2 {
+  top: 297px;
+}
+
+pre.history-3 {
+  top: 422px;
+}
+
+pre.history-4 {
+  top: 549px;
+}
+
+.flag {
+  position: fixed;
+  z-index: 9;
+  width: 227px;
+  left: 1033px;
+  top: 189px;
+}
+
+
+.clouds-japan {
+  position: fixed;
+  z-index: 10;
+  width: 405px;
+  left: 1097px;
+  top: 316px;
+}
+.volcano {
+  position: fixed;
+  z-index: 11;
+  width: 246px;
+  left: 1362px;
+  top: 521px;
+}
