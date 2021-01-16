@@ -13,11 +13,11 @@ export class KoreaLiveInNorthComponent extends KoreaPageComponent implements OnI
   }
 
   ngOnInit(): void {
-    super.ngOnInit();
+    super.onInit();
   }
 
   ngOnDestroy(): void {
-    super.ngOnDestroy();
+    super.onDestroy();
   }
 
   @HostListener('window:scroll', ['$event'])

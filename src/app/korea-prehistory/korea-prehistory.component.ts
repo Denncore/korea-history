@@ -11,12 +11,13 @@ export class KoreaPrehistoryComponent extends KoreaPageComponent implements OnIn
   constructor(elementRef: ElementRef, renderer: Renderer2, router: Router, activatedRoute: ActivatedRoute) {
     super(elementRef, renderer, router, activatedRoute, null, {route: 'division'});
   }
+
   ngOnInit(): void {
-    super.ngOnInit();
+    super.onInit();
   }
 
   ngOnDestroy(): void {
-    super.ngOnDestroy();
+    super.onDestroy();
   }
 
   @HostListener('window:scroll', ['$event'])

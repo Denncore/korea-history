@@ -1,10 +1,10 @@
-import { ElementRef, HostListener, OnDestroy, OnInit, Renderer2 } from '@angular/core';
+import { ElementRef, Renderer2 } from '@angular/core';
 import { PageNavigation, ScrollingService } from 'src/app/scrolling.service';
 import { Subject } from 'rxjs';
 import { ActivatedRoute, Router } from '@angular/router';
 import { take } from 'rxjs/operators';
 
-export class KoreaPageComponent implements OnInit, OnDestroy {
+export class KoreaPageComponent {
   private scrollingService: ScrollingService;
   protected scrollSubject: Subject<number> = new Subject<number>();
 
@@ -17,7 +17,7 @@ export class KoreaPageComponent implements OnInit, OnDestroy {
 
   }
 
-  ngOnInit(): void {
+  protected onInit(): void {
     this.activatedRoute.queryParamMap.pipe(take(1)).subscribe(queryParamMap => {
       const slide: number = queryParamMap.get('slide') ? parseInt(queryParamMap.get('slide'), 0) : 1;
       this.scrollingService = new ScrollingService(this.elementRef, this.renderer, this.router, this.scrollSubject,
@@ -26,7 +26,7 @@ export class KoreaPageComponent implements OnInit, OnDestroy {
     });
   }
 
-  ngOnDestroy(): void {
+  protected onDestroy(): void {
     this.scrollingService.unsubscribe();
   }
 

@@ -14,11 +14,11 @@ export class KoreaDivisionComponent extends KoreaPageComponent implements OnInit
   }
 
   ngOnInit(): void {
-    super.ngOnInit();
+    super.onInit();
   }
 
   ngOnDestroy(): void {
-    super.ngOnDestroy();
+    super.onDestroy();
   }
 
   @HostListener('window:scroll', ['$event'])
