@@ -61,7 +61,7 @@ export class ScrollingService {
         slideObject.elements.push(animationElement);
       });
     });
-    this.lastSlide = slides.length - 1;
+    this.lastSlide = slides.length;
     return slides;
   }
 
