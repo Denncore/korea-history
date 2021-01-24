@@ -78,13 +78,15 @@ export class ScrollingService {
 
   private toggleAnimationClass(elements): void {
     elements.forEach((element => {
-      this.renderer.addClass(element, 'animation-fade');
+      if (element.getAttribute('data-animation')) {
+        this.renderer.addClass(element, 'animation-fade');
 
-      const animationClass = element.getAttribute('data-animation');
-      if (element.classList.contains(animationClass)) {
-        this.renderer.removeClass(element, animationClass);
-      } else {
-        this.renderer.addClass(element, animationClass);
+        const animationClass = element.getAttribute('data-animation');
+        if (element.classList.contains(animationClass)) {
+          this.renderer.removeClass(element, animationClass);
+        } else {
+          this.renderer.addClass(element, animationClass);
+        }
       }
     }));
   }

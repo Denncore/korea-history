@@ -8,6 +8,7 @@ import { KoreaPageComponent } from 'src/app/korea-page.component';
   styleUrls: ['./korea-prehistory.component.scss']
 })
 export class KoreaPrehistoryComponent extends KoreaPageComponent implements OnInit, OnDestroy {
+
   constructor(elementRef: ElementRef, renderer: Renderer2, router: Router, activatedRoute: ActivatedRoute) {
     super(elementRef, renderer, router, activatedRoute, null, {route: 'division'});
   }

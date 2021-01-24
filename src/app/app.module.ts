@@ -10,6 +10,7 @@ import { KoreaConflictComponent } from './korea-conflict/korea-conflict.componen
 import { KoreaRecentComponent } from './korea-recent/korea-recent.component';
 import { KoreaLiveInNorthComponent } from './korea-live-in-north/korea-live-in-north.component';
 import { KoreaLiveInSouthComponent } from './korea-live-in-south/korea-live-in-south.component';
+import { ScrollNotificationComponent } from './scroll-notification/scroll-notification.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { KoreaLiveInSouthComponent } from './korea-live-in-south/korea-live-in-s
     KoreaConflictComponent,
     KoreaRecentComponent,
     KoreaLiveInNorthComponent,
-    KoreaLiveInSouthComponent
+    KoreaLiveInSouthComponent,
+    ScrollNotificationComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,13 @@
 <div data-animation="fade-right" data-slides="2,3,4,5" class="animation-element">
   <app-page-navigation [activeLinkPage]="1"></app-page-navigation>
 </div>
+<span data-animation="fade-down" data-slides="1" class="scroll-notification-container animation-element">
+  <app-scroll-notification  [showAfterInSeconds]="5" [center]="true"></app-scroll-notification>
+</span>
+
+<span data-animation="fade-down" data-slides="2,3,4,5"  class="scroll-notification-container animation-element">
+  <app-scroll-notification [center]="false"></app-scroll-notification>
+</span>
 
 <img data-animation="fade-down" data-slides="1" class="animation-element land-first-page" src="assets/svg/korea.land.svg" alt="korea-land"/>
 <img data-animation="fade-down" data-slides="1" class="animation-element sun" src="../../assets/svg/korea.sun.svg" alt="korea-sonne"/>
