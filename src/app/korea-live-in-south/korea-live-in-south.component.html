@@ -1,5 +1,7 @@
 <app-page-navigation [activeLinkPage]="6"></app-page-navigation>
-<app-scroll-notification></app-scroll-notification>
+<span data-animation="fade-down" data-slides="1,2,3,4,5"  class="scroll-notification-container animation-element">
+  <app-scroll-notification [center]="false"></app-scroll-notification>
+</span>
 
 <pre data-animation="fade-up" data-slides="1,2" class="animation-element text-block text first">leben in südkorea</pre>
 <img data-animation="fade-up" data-slides="1,2,3,4,5,6" class="animation-element separation-south-korea" src="assets/svg/spaltung.south-korea.svg"/>
