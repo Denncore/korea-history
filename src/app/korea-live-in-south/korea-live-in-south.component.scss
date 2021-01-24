@@ -1,7 +1,15 @@
 @import "../../variables";
 
 pre.live-in-south-korea-text-2 {
-  top: 309px
+  top: 260px
+}
+
+pre.live-in-south-korea-text-3 {
+  top: 450px
+}
+
+pre.live-in-south-korea-text-4 {
+  top: 516px
 }
 
 .separation-south-korea {
@@ -11,4 +19,58 @@ pre.live-in-south-korea-text-2 {
   height: 635px;
   left: (1110 + $left-adjustments) + 0px;
   top: 244px;
+}
+
+.seoul {
+  position: fixed;
+  z-index: 11;
+  width: 116px;
+  height: 46px;
+  left: (1156 + $left-adjustments) + 0px;
+  top: 286px;
+}
+
+.seoul-dot {
+  position: fixed;
+  z-index: 11;
+  width: 111px;
+  height: 111px;
+  left: (1202 + $left-adjustments) + 0px;
+  top: 324px;
+}
+
+.seoul-image-1 {
+  position: fixed;
+  z-index: 12;
+  width: 496px;
+  height: 330px;
+  left: (1339 + $left-adjustments) + 0px;
+  top: 137px;
+}
+
+.seoul-image-2 {
+  position: fixed;
+  z-index: 12;
+  width: 496px;
+  height: 330px;
+  left: (1339 + $left-adjustments) + 0px;
+  top: 552px;
+}
+
+.seoul-image-3 {
+  position: fixed;
+  z-index: 12;
+  width: 496px;
+  height: 372px;
+  left: (1339 + $left-adjustments) + 0px;
+  top: 137px;
+}
+
+.seoul-image-4 {
+  position: fixed;
+  z-index: 12;
+  width: 496px;
+  height: 372px;
+  left: (1339 + $left-adjustments) + 0px;
+  top: 137px;
 }
