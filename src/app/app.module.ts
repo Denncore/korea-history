@@ -11,6 +11,7 @@ import { KoreaRecentComponent } from './korea-recent/korea-recent.component';
 import { KoreaLiveInNorthComponent } from './korea-live-in-north/korea-live-in-north.component';
 import { KoreaLiveInSouthComponent } from './korea-live-in-south/korea-live-in-south.component';
 import { ScrollNotificationComponent } from './scroll-notification/scroll-notification.component';
+import { ImpressumComponent } from './impressum/impressum.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ScrollNotificationComponent } from './scroll-notification/scroll-notifi
     KoreaRecentComponent,
     KoreaLiveInNorthComponent,
     KoreaLiveInSouthComponent,
-    ScrollNotificationComponent
+    ScrollNotificationComponent,
+    ImpressumComponent
   ],
   imports: [
     BrowserModule,

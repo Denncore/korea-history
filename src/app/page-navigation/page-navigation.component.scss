@@ -35,6 +35,10 @@ a {
   padding-bottom: 12px;
   font-size: 15px;
   font-weight: 600;
+
+  &:last-of-type {
+    margin-top: 40px;
+  }
 }
 .nav-links > li > a {
   color: #959595;
