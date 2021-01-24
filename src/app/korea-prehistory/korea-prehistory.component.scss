@@ -1,9 +1,11 @@
+$left-adjustments: -180;
+
 .waves {
   position: fixed;
   z-index: 1;
   width: 956px;
   height: 334px;
-  left: 482px;
+  left: (482+$left-adjustments) + 0px;
   top: 633px;
 }
 
@@ -11,7 +13,7 @@
   position: fixed;
   z-index: 2;
   width: 287px;
-  left: 687px;
+  left: (687+$left-adjustments) + 0px;
   top: 165px;
 }
 
@@ -19,7 +21,7 @@
   position: fixed;
   z-index: 4;
   width: 891px;
-  left: 496px;
+  left: (496+$left-adjustments) + 0px;
   top: 293px;
 }
 
@@ -27,14 +29,14 @@
   position: fixed;
   z-index: 5;
   width: 220px;
-  left: 517px;
+  left: (517+$left-adjustments) + 0px;
   top: 450px;
 }
 .title-2 {
   position: fixed;
   z-index: 6;
   width: 149px;
-  left: 126px;
+  left: (126+$left-adjustments) + 0px;
   top: 130px;
 }
 
@@ -42,14 +44,14 @@
   position: fixed;
   z-index: 7;
   width: 266px;
-  left: 1294px;
+  left: (1294+$left-adjustments) + 0px;
   top: 337px;
 }
 .stars {
   position: fixed;
   z-index: 8;
   width: 135px;
-  left: 1148px;
+  left: (1148+$left-adjustments) + 0px;
   top: 233px;
 }
 pre.history-2 {
@@ -68,7 +70,7 @@ pre.history-4 {
   position: fixed;
   z-index: 9;
   width: 227px;
-  left: 1033px;
+  left: (1033+$left-adjustments) + 0px;
   top: 189px;
 }
 
@@ -77,13 +79,13 @@ pre.history-4 {
   position: fixed;
   z-index: 10;
   width: 405px;
-  left: 1097px;
+  left: (1097+$left-adjustments) + 0px;
   top: 316px;
 }
 .volcano {
   position: fixed;
   z-index: 11;
   width: 246px;
-  left: 1362px;
+  left: (1362+$left-adjustments) + 0px;
   top: 521px;
 }

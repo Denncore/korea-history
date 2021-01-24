@@ -21,7 +21,8 @@ export class PageNavigationComponent implements OnInit {
     {name: 'krieg-und-streit', route: 'conflict'},
     {name: 'jüngste ereignisse', route: 'recent'},
     {name: 'leben in nordkorea', route: 'north-korea'},
-    {name: 'leben in südkorea', route: 'south-korea'}
+    {name: 'leben in südkorea', route: 'south-korea'},
+    {name: 'impressum', route: 'impressum'}
   ];
 
   constructor() {

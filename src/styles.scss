@@ -1,3 +1,5 @@
+$left-adjustments: -180;
+
 html, body {
   width: 100%;
   height: 100%;
@@ -52,7 +54,7 @@ pre {
   position: fixed;
   z-index: 3;
   width: 507px;
-  left: 844px;
+  left: (844+$left-adjustments) + 0px;
   top: 110px;
 }
 
@@ -60,7 +62,7 @@ pre {
   position: fixed;
   z-index: 3;
   width: 507px;
-  left: 1125px;
+  left: (1125+$left-adjustments) + 0px;;
   top: 110px;
 }
 

@@ -1,3 +1,5 @@
+$left-adjustments: -180;
+
 pre.recent-text-2 {
   top: 303px
 }
@@ -15,7 +17,7 @@ pre.recent-text-4 {
   z-index: 11;
   width: 420px;
   height: 467px;
-  left: 1076px;
+  left: (1076 + $left-adjustments) + 0px;
   top: 53px;
 }
 
@@ -24,7 +26,7 @@ pre.recent-text-4 {
   z-index: 11;
   width: 403px;
   height: 410px;
-  left: 1228px;
+  left: (1228 + $left-adjustments) + 0px;
   top: 473px;
 }
 .korea {
@@ -32,7 +34,7 @@ pre.recent-text-4 {
   z-index: 11;
   width: 503px;
   height: 775px;
-  left: 1128px;
+  left: (1128 + $left-adjustments) + 0px;
   top: 108px;
 }
 
@@ -41,7 +43,7 @@ pre.recent-text-4 {
   z-index: 11;
   width: 299px;
   height: 175px;
-  left: 1230px;
+  left: (1230 + $left-adjustments) + 0px;
   top: 408px;
 }
 
@@ -50,7 +52,7 @@ pre.recent-text-4 {
   z-index: 12;
   width: 171px;
   height: 151px;
-  left: 1105px;
+  left: (1105 + $left-adjustments) + 0px;
   top: 212px
 }
 .confetti-1-rotate {
@@ -62,7 +64,7 @@ pre.recent-text-4 {
   z-index: 12;
   width: 171px;
   height: 151px;
-  left: 1311px;
+  left: (1311 + $left-adjustments) + 0px;
   top: 268px;
 }
 
@@ -75,7 +77,7 @@ pre.recent-text-4 {
   z-index: 12;
   width: 171px;
   height: 151px;
-  left: 1179px;
+  left: (1179 + $left-adjustments) + 0px;
   top: 432px;
 }
 
@@ -88,7 +90,7 @@ pre.recent-text-4 {
   z-index: 12;
   width: 197px;
   height: 133px;
-  left: 1281px;
+  left: (1281 + $left-adjustments) + 0px;
   top: 397px;
 }
 
@@ -98,14 +100,14 @@ pre.recent-text-4 {
   z-index: 12;
   width: 500px;
   height: 556px;
-  left: 975px;
+  left: (975 + $left-adjustments) + 0px;
   top: 46px;
   transition: all 0.1s ease-in;
 }
 .live-in-north-korea:hover {
   width: 550px;
   height: 606px;
-  left: 950px;
+  left: (950 + $left-adjustments) + 0px;
   top: 0;
 }
 
@@ -115,7 +117,7 @@ pre.recent-text-4 {
   z-index: 12;
   width: 480px;
   height: 488px;
-  left: 1308px;
+  left: (1308 + $left-adjustments) + 0px;
   top: 488px;
   transition: all 0.1s ease-in;
 }
@@ -123,6 +125,6 @@ pre.recent-text-4 {
 .live-in-south-korea:hover {
   width: 530px;
   height: 538px;
-  left: 1348px;
+  left: (1348 + $left-adjustments) + 0px;
   top: 534px;
 }

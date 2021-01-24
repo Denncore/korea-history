@@ -1,3 +1,5 @@
+$left-adjustments: -180;
+
 pre.live-in-north-korea-text-2 {
   top: 309px
 }
@@ -7,6 +9,6 @@ pre.live-in-north-korea-text-2 {
   z-index: 11;
   width: 631px;
   height: 702px;
-  left: 1076px;
+  left: (1076 + $left-adjustments) + 0px;
   top: 136px;
 }

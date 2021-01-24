@@ -1,3 +1,5 @@
+$left-adjustments: -180;
+
 pre.conflict-text-2 {
   top: 320px;
 }
@@ -22,7 +24,7 @@ pre.conflict-text-6 {
   z-index: 10;
   width: 509px;
   height: 784px;
-  left: 1123px;
+  left: (1123 + $left-adjustments) + 0px;
   top: 106px;
 }
 .north-korea-flag {
@@ -30,7 +32,7 @@ pre.conflict-text-6 {
   z-index: 11;
   width: 132px;
   height: 92px;
-  left: 1030px;
+  left: (1030 + $left-adjustments) + 0px;
   top: 168px;
 }
 
@@ -39,7 +41,7 @@ pre.conflict-text-6 {
   z-index: 11;
   width: 148px;
   height: 104px;
-  left: 1516px;
+  left: (1516 + $left-adjustments) + 0px;
   top: 626px;
 }
 
@@ -48,7 +50,7 @@ pre.conflict-text-6 {
   z-index: 11;
   width: 273px;
   height: 261px;
-  left: 1046px;
+  left: (1046 + $left-adjustments) + 0px;
   top: 376px;
 }
 
@@ -57,7 +59,7 @@ pre.conflict-text-6 {
   z-index: 12;
   width: 192px;
   height: 134px;
-  left: 1044px;
+  left: (1044 + $left-adjustments) + 0px;
   top: 151px;
 }
 
@@ -66,7 +68,7 @@ pre.conflict-text-6 {
   z-index: 11;
   width: 180px;
   height: 126px;
-  left: 960px;
+  left: (960 + $left-adjustments) + 0px;
   top: 80px;
 }
 
@@ -75,7 +77,7 @@ pre.conflict-text-6 {
   z-index: 11;
   width: 180px;
   height: 126px;
-  left: 1140px;
+  left: (1140 + $left-adjustments) + 0px;
   top: 81px;
 }
 
@@ -84,7 +86,7 @@ pre.conflict-text-6 {
   z-index: 12;
   width: 191px;
   height: 134px;
-  left: 1476px;
+  left: (1476 + $left-adjustments) + 0px;
   top: 700px;
 }
 
@@ -93,7 +95,7 @@ pre.conflict-text-6 {
   z-index: 11;
   width: 190px;
   height: 124px;
-  left: 1378px;
+  left: (1378 + $left-adjustments) + 0px;
   top: 627px;
 }
 
@@ -102,7 +104,7 @@ pre.conflict-text-6 {
   z-index: 11;
   width: 199px;
   height: 141px;
-  left: 1568px;
+  left: (1568 + $left-adjustments) + 0px;
   top: 626px;
 }
 
@@ -111,7 +113,7 @@ pre.conflict-text-6 {
   z-index: 11;
   width: 420px;
   height: 467px;
-  left: 1076px;
+  left: (1076 + $left-adjustments) + 0px;
   top: 53px;
 }
 
@@ -120,7 +122,7 @@ pre.conflict-text-6 {
   z-index: 12;
   width: 197px;
   height: 247px;
-  left: 1188px;
+  left: (1188 + $left-adjustments) + 0px;
   top: 357px;
 }
 
@@ -129,7 +131,7 @@ pre.conflict-text-6 {
   z-index: 11;
   width: 403px;
   height: 410px;
-  left: 1228px;
+  left: (1228 + $left-adjustments) + 0px;
   top: 473px;
 }
 
@@ -138,7 +140,7 @@ pre.conflict-text-6 {
   z-index: 12;
   width: 245px;
   height: 242px;
-  left: 991px;
+  left: (991 + $left-adjustments) + 0px;
   top: 399px;
 }
 
@@ -147,7 +149,7 @@ pre.conflict-text-6 {
   z-index: 11;
   width: 571px;
   height: 344px;
-  left: 1000px;
+  left: (1000 + $left-adjustments) + 0px;
   top: 301px;
 }
 
@@ -156,7 +158,7 @@ pre.conflict-text-6 {
   z-index: 12;
   width: 671px;
   height: 503px;
-  left: 972px;
+  left: (972 + $left-adjustments) + 0px;
   top: 211px;
 }
 
@@ -165,7 +167,7 @@ pre.conflict-text-6 {
   z-index: 12;
   width: 234px;
   height: 300px;
-  left: 1190px;
+  left: (1190 + $left-adjustments) + 0px;
   top: 302px;
 }
 
@@ -174,7 +176,7 @@ pre.conflict-text-6 {
   z-index: 10;
   width: 142px;
   height: 100px;
-  left: 1614px;
+  left: (1614 + $left-adjustments) + 0px;
   top: 570px;
 }
 
@@ -183,7 +185,7 @@ pre.conflict-text-6 {
   z-index: 12;
   width: 148px;
   height: 97px;
-  left: 1513px;
+  left: (1513 + $left-adjustments) + 0px;
   top: 505px;
 }
 
@@ -192,6 +194,6 @@ pre.conflict-text-6 {
   z-index: 13;
   width: 152px;
   height: 106px;
-  left: 1609px;
+  left: (1609 + $left-adjustments) + 0px;
   top: 452px;
 }
