@@ -1,7 +1,11 @@
 @import "../../variables";
 
 pre.live-in-north-korea-text-2 {
-  top: 309px
+  top: 260px
+}
+
+pre.live-in-north-korea-text-3 {
+  top: 330px
 }
 
 .separation-north-korea {
@@ -10,5 +14,94 @@ pre.live-in-north-korea-text-2 {
   width: 631px;
   height: 702px;
   left: (1076 + $left-adjustments) + 0px;
+  top: 136px;
+}
+.pjöngjang {
+  position: fixed;
+  z-index: 11;
+  width: 220px;
+  height: 54px;
+  left: (1234 + $left-adjustments) + 0px;
+  top: 564px;
+}
+
+.pjöngjang-dot {
+  position: fixed;
+  z-index: 11;
+  width: 111px;
+  height: 111px;
+  left: (1180 + $left-adjustments) + 0px;
+  top: 608px;
+}
+
+.pjöngjang-image-1 {
+  position: fixed;
+  z-index: 12;
+  width: 496px;
+  height: 372px;
+  left: (1344 + $left-adjustments) + 0px;
+  top: 136px;
+}
+
+.pjöngjang-image-2 {
+  position: fixed;
+  z-index: 12;
+  width: 496px;
+  height: 372px;
+  left: (1344 + $left-adjustments) + 0px;
+  top: 540px;
+}
+
+.pjöngjang-image-3 {
+  position: fixed;
+  z-index: 12;
+  width: 496px;
+  height: 372px;
+  left: (1344 + $left-adjustments) + 0px;
+  top: 136px;
+}
+
+.pjöngjang-image-4 {
+  position: fixed;
+  z-index: 12;
+  width: 496px;
+  height: 372px;
+  left: (1344 + $left-adjustments) + 0px;
+  top: 540px;
+}
+
+.pjöngjang-image-5 {
+  position: fixed;
+  z-index: 12;
+  width: 496px;
+  height: 409px;
+  left: (1344 + $left-adjustments) + 0px;
+  top: 136px;
+}
+
+.pjöngjang-image-6 {
+  position: fixed;
+  z-index: 12;
+  width: 496px;
+  height: 279px;
+  left: (1344 + $left-adjustments) + 0px;
+  top: 136px;
+}
+
+.pjöngjang-image-7 {
+  position: fixed;
+  z-index: 12;
+  width: 496px;
+  height: 484px;
+  left: (1344 + $left-adjustments) + 0px;
+  top: 136px;
+}
+
+.pjöngjang-image-8 {
+  position: fixed;
+  z-index: 12;
+  width: 496px;
+  height: 330px;
+  left: (1344 + $left-adjustments) + 0px;
   top: 136px;
 }
